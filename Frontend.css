@@ -1,0 +1,89 @@
+.my-pic{
+    border-radius: 50%;
+  }
+
+.blue{
+    color:blue;
+}
+
+.first-item {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the header stays on top of other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+  border-bottom: 1px solid #e0e0e0; /* Adds a light border */
+  background-color: white; /* Ensures the background is white */
+  padding: 0 15px; /* Adds some padding to the sides */
+  height: 60px; /* Decreases the height of the container */
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px; 
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  position: relative;
+  left: 112px;
+}
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+  top:-85px;
+}
+.contact-info {
+  margin-left: 20px;
+  position: relative;
+  left: 110px;
+  top:-75px;
+}
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 20px;
+}
+.message-form input, .message-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.message-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+.message-form button:hover {
+  background-color: #0056b3;
+}
+
+.message-form.container{
+  width:500px;
+  position: relative;
+  left:-85px;
+}
+
+.info{
+  position: relative;
+  left: 128px;
+  top:-85px;
+}
+
+#black1{
+  color:black;
+}
+
+
