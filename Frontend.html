@@ -9,23 +9,24 @@
 </head>
 <body>
     <section id="header">
-      <div class="container-fluid first-item">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-          <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">Welcome to my Portfolio website</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
-        </header>
-      </div>
-      <div class="container col-xxl-8 px-4 py-5">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a> </li>
+                  <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container col-xxl-8 px-4 py-3">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="./1720867508560.jpg" class="d-block mx-lg-auto img-fluid my-pic" alt="Bootstrap Themes" width="300" height="300" loading="lazy">
@@ -44,7 +45,7 @@
       </div>
     </section>
     <section id="about">
-      <div class="container col-xxl-8 px-4 py-5">
+      <div class="container col-xxl-8 px-4 py-2">
         <div class="row align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="./1720867508560.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
@@ -60,44 +61,40 @@
       </div>
     </section>
     <section id="education">
-      <div class="container col-xxl-8 px-4 py-5">
-          <div class="row align-items-center g-5 py-5">
-              <div class="col-lg-12">
-                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Education</h1>
-                  <table class="table table-striped">
-                      <thead>
-                          <tr>
-                              <th scope="col">Year</th>
-                              <th scope="col">Degree/Board</th>
-                              <th scope="col">Institute</th>
-                              
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr>
-                              <td>2023-2027</td>
-                              <td>B.Tech in Mechanical Engineering </td>
-                              <td>Indian Institute of Technology Delhi</td>
-                             
-                          </tr>
-                          <tr>
-                              <td>2022</td>
-                              <td>Central Board of Secondary Education</td>
-                              <td>Army Public School Kanpur</td>
-                              
-                          </tr>
-                          <tr>
-                              <td>2020</td>
-                              <td>Central Board of Secondary Education</td>
-                              <td>Army Public School Kanpur</td>
-                            
-                          </tr>
-                      </tbody>
-                  </table>
-              </div>
-          </div>
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-lg-12">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Education</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Year</th>
+                    <th scope="col">Degree/Board</th>
+                    <th scope="col">Institute</th>            
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2023-2027</td>
+                    <td>B.Tech in Mechanical Engineering </td>
+                    <td>Indian Institute of Technology Delhi</td>
+                  </tr>
+                  <tr>
+                    <td>2022</td>
+                    <td>Central Board of Secondary Education</td>
+                    <td>Army Public School Kanpur</td>
+                  </tr>
+                  <tr>
+                    <td>2020</td>
+                    <td>Central Board of Secondary Education</td>
+                    <td>Army Public School Kanpur</td>
+                  </tr>
+                </tbody>
+              </table>
+           </div>
+        </div>
       </div>
-   </section>
+    </section>
    
 <section id="projects">
   <div class="container">
@@ -114,7 +111,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./Screenshot (4).png" class="d-block w-100" alt="Move with joy website">
+          <img src="./Moving website.png" class="d-block w-100" alt="Move with joy website">
           <div class="carousel-caption d-none d-md-block">
             <p>Website for a company Move With Joy</p>
           </div>
