@@ -2,7 +2,7 @@
     border-radius: 50%; }
 
 .blue{
-    color:blue;
+    color:white;
 }
 
 .first-item {
@@ -257,3 +257,76 @@ background-color: #0056b3;
   color: #dee2e6;
 }
 
+.button-color-white{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation-light 9s ease infinite; 
+}
+
+@keyframes gradient-animation-light {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.dark-mode .gradient-background{
+  background: linear-gradient(300deg, #1a1a1a, #333333, #4d4d4d);
+  background-size: 180% 180%;
+  animation: gradient-animation-dark 9s ease infinite;
+}
+
+@keyframes gradient-animation-dark {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.dark-mode .button-color-white{
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.dark-mode .blue{
+  color: #007bff;
+}
+
+.heading-bold{
+  font-weight: bold;
+}
+
+#projects {
+  margin-top: 80px;
+}
+
+.arrow-up{
+  position: absolute;
+  left: 550px;
+  top: 250px;
+}
+
+.dark-mode.arrow-up{
+  position: absolute;
+  left: 550px;
+  top: 250px;
+}

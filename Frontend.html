@@ -8,10 +8,11 @@
     <link href="./Frontend.css" rel="stylesheet"/>
 </head>
 <body>
+  <div class="gradient-background">
     <section id="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Portfolio</a>
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,8 +48,8 @@
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 one">Hii, I am <span class="blue">Priya Yadav</span> and I am a B.Tech. student.</h1>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-              <a href="https://GitHub.com/krr67h889"><button type="button" class="btn btn-outline-secondary btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <a href="./Resume.pdf"><button class="btn btn-primary btn-lg px-4 me-md-2 button-color-white">Resume</button></a>
+              <a href="https://GitHub.com/krr67h889"><button type="button" class="btn btn-outline-secondary btn-lg px-4 button-color-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
               </svg> Github</button></a>
             </div>
@@ -56,11 +57,12 @@
         </div>
       </div>
     </section>
+  </div>
     <section id="about">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./1720867508560.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="./1720867508560.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 one">About</h1>
@@ -106,6 +108,12 @@
            </div>
         </div>
       </div>
+      <div class="container skills">
+        <h2 class="heading-bold"> Skills</h2>
+        <p><li><span class="heading-bold">Languages and Libraries:</span> C | Python | HTML | CSS | Bootstrap | JavaScript</li></p>
+        <p><li><span class="heading-bold">Soft Skills:</span> Interpersonal Communication | Leadership | Teamwork</p></li>
+        <p><li><span class="heading-bold">Areas of interest:</span> Competitive Programming | Financial Mathematics</p></li>
+      </div>
     </section>
    
 <section id="projects">
@@ -124,7 +132,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <a href="https://github.com/krr67h889/Move-with-Joy"><img src="./Moving website.png" class="d-block w-100" alt="Move with joy website "/></a>
+          <a href="https://github.com/krr67h889/Move-with-Joy"><img src="./image.png" class="d-block w-100" alt="Move with joy website "/></a>
           <div class="carousel-caption d-none d-md-block">
             <p>Website for a company Move With Joy</p>
           </div>
@@ -143,8 +151,8 @@
 </section>
 
 <section id="contact">
-  <footer>
-    <div>
+  <footer  class="gradient-background">
+    <div >
       <div class="info"><h2>Contact Info:</h2></div>
       <div class="social-icons">
           <a href="mailto:priyayadav9743@gmail.com"><i class="fas fa-envelope"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -169,6 +177,9 @@
       <input type="email" id="email" name="email" placeholder="Your email" required>
       <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
       <button type="submit">Send</button>
+      <a href="#" class="arrow-up"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+      </svg></a>
     </div>
   </footer>
 </section>
